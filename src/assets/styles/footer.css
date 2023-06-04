@@ -1,0 +1,66 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+  
+  }
+  .container-footer {
+    min-width: 280px;
+    background: -prefix-linear-gradient(top, #329D9C, #56C596);
+    background: linear-gradient(to bottom, #329D9C,#56C596);
+    border-radius: 20px 20px 0 0;
+    z-index: 75;
+    margin-top: -10px;
+    position: relative;
+  }
+    .container-social {
+      display: flex;
+      height: 40px;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: flex-start;
+      margin: 0 0 -10px 0;
+      padding: 50px 40px 0px;
+  
+  
+    }
+      .github-btn {
+        min-width: 35px;
+        min-height: 35px;
+        align-self: flex-end;
+        margin-bottom: 25px;
+      }
+        .github-btn img{
+          max-width: 35px;
+          max-height: 35px;
+        }
+      .linkedin-btn {
+        min-width: 35px;
+        min-height: 35px;
+        align-self: flex-end;
+        margin-bottom: 25px;
+      }
+        .linkedin-btn img{
+          max-width: 35px;
+          max-height: 35px;
+        }
+      .instagram-btn {
+        min-width: 35px;
+        min-height: 35px;
+        align-self: flex-end;
+        margin-bottom: 25px;
+      }
+        .instagram-btn img{
+          max-width: 35px;
+          max-height: 35px;
+        }
+    
+    .container-copyright {
+      align-self: center;
+      font-size: 10px;
+      color: #fafafa;
+      width: 100%;
+      text-align: center;
+      margin-top: 0px;
+    }

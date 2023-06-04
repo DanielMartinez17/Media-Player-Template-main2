@@ -1,0 +1,11 @@
+/*Importación del archivo css de la navbar*/
+@import url("../../src/assets/styles/nav.css");
+
+/*Importación del archivo css para darle estilo al reproductor*/
+@import url("../../src/assets/styles/body.css");
+
+/*Importación del archivo css del footer*/
+@import url("../../src/assets/styles/footer.css");
+
+/*Importación del archivo css que permite adaptarse a la pantalla*/
+@import url("../../src/assets/styles/responsive.css");

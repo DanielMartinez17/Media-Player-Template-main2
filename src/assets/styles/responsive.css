@@ -1,0 +1,38 @@
+@media screen and (min-width:480px){
+
+    .bar-under {
+      width: 100%;
+    }
+  
+    .time-song {
+      width: 100%;
+    }
+  
+  
+  }
+  
+  @media screen and (min-width:600px){
+  
+    body {
+      background-color: #E5E5E5;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+    }
+  
+    .container-nav {
+      min-width: 520px;
+    }
+  
+    .container-footer {
+      min-width: 520px;
+    }
+  
+    .container-mediaPlayer{
+      width: 520px;
+    }
+    .footer {
+      width: 600px;
+    }
+  }
